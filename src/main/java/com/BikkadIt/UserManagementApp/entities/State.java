@@ -21,6 +21,6 @@ public class State {
 	@Column(name ="STATE_NAME")
 	private String statename;
 	@Column(name = "COUNTRY_ID")
-	private int contryid;
+	private int countryid;
 
 }
