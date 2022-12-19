@@ -17,10 +17,10 @@ import lombok.ToString;
 public class City {
 	@Id
 	@Column(name ="CITY_ID")
-	private int cityid;
+	private int cityId;
 	@Column(name ="CITY_NAME")
-	private String cityname;
+	private String cityName;
 	@Column(name ="SATE_ID")
-	private int stateid;
+	private int stateId;
 
 }

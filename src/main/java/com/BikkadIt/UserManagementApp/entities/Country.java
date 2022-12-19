@@ -19,7 +19,7 @@ public class Country {
 	@Column(name ="COUNTRY_ID")
 	private int countryId;
 	@Column(name ="COUNTRY_NAME")
-	private String countryname;
+	private String countryName;
 	
 
 }

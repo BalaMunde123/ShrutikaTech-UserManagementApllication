@@ -17,10 +17,10 @@ import lombok.Setter;
 public class State {
 	@Id
 	@Column(name ="STATE_ID")
-	private int stateid;
+	private int stateId;
 	@Column(name ="STATE_NAME")
-	private String statename;
+	private String stateName;
 	@Column(name = "COUNTRY_ID")
-	private int countryid;
+	private int countryId;
 
 }
